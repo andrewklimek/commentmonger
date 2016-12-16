@@ -51,11 +51,7 @@ function commentmonger_settings_init() {
 	
 	register_setting( 'discussion', 'commentmonger' );
 	
-	add_settings_field( 'commentmonger_cat', 
-		'Disable comments on categories', 
-		'commentmonger_cat', 
-		'discussion', 
-	);
+	add_settings_field( 'commentmonger_cat', 'Disable comments on categories', 'commentmonger_cat', 'discussion' );
 	
 }
 
